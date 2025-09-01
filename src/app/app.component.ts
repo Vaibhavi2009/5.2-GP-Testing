@@ -1,11 +1,9 @@
+// src/app/app.component.ts
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  standalone: false,
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'angular-testing';
-}
+export class AppComponent {}
